@@ -1,0 +1,26 @@
+body{
+    background-image: -webkit-linear-gradient(cyan,white);
+    font-family:'Courier New', Courier, monospace;
+    
+}
+ul{
+display: flex;
+
+
+}
+li{
+    margin-right: 2em;
+   list-style-type: none;
+}
+
+img{
+    width: 100%;;
+    
+}
+div{
+    display: block;
+    background-color: green;
+   border: solid green;
+    border-radius:10%;
+
+}
