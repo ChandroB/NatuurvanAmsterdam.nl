@@ -1,60 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Informatie</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      
+    </style>
 </head>
 
-
-    <body>
+<body>
     <header>
         <nav>
             <ul>
                 <li>
-                    <li><a href="index.html">
-                        <img src="Afbeelding tuinen/Middel 8.png" alt=""></a>
-                    
-                    </li>
-                        <li><a href="natuurtuin.html">
-                        <img src="Afbeelding tuinen/Middel 11.png" alt=""></a>
-                        
-                    </li>
-                    <li><a href="informatie.html">
-                        <img src="Afbeelding tuinen/Middel 10.png" alt=""></a>
+                    <a href="index.html">
+                        <img src="Afbeelding%20tuinen/Middel%208.png" alt="Home">
+                    </a>
+                </li>
+                <li>
+                    <a href="natuurtuin.html">
+                        <img src="Afbeelding%20tuinen/Middel%2011.png" alt="Natuurtuin">
+                    </a>
+                </li>
+                <li>
+                    <a href="informatie.html">
+                        <img src="Afbeelding%20tuinen/Middel%2010.png" alt="Informatie">
+                    </a>
                 </li>
             </ul>
         </nav>    
     </header> 
 
     <main>
-        <h1>Informatie</h1>
-        <img src="Afbeelding tuinen/donatiebrief.png" alt="">
-        <img src="Afbeelding tuinen/Middel 5.png" alt="">
-        <h2>donatiebrief</h2>
-        <p>Met een deeltijdkracht onderhouden ze de tuin en geven ze les aan bassisschoolkinderen. 
-            Hoewel de gemeente een kleine bijdrage levert hopen ze met onderhoudt en verbeteringen te bekostigen. 
-            Alle steun is welkom!!!</p>
-        <img src="Afbeelding tuinen/maps.png" alt="">
-        <h3>Informatie</h3>
-        <p>Locatie:Slatuinenweg 45, 1057,KB Amsterdam
-            Telefoonnummer:0204124361 
-            Email:slatuinen@tiscali.nl
-            je zou ze ook kunnen bezoeken op <a href="www.natuurtuinslatuinen.nl"></a>
-        </p>
-        <img src="Afbeelding tuinen/Middel 5.png" alt="">
-        <h4>Maker</h4>
-        <p>Student:Luchandro Banel
-            School:HVA 
-            Opleiding:CMD 
-            Jaar:2025
-        </p>
+        <h1 class="main-title">Informatie</h1>
+
+
+        <div class="container">
+            <img src="Afbeelding%20tuinen/donatiebrief.png" alt="Donatiebrief" style="width: 40%;">
+            <img src="Afbeelding%20tuinen/Middel%205.png" alt="Illustratie" style="width: 15%;">
+        </div>
+
+        <div class="bordered-section">
+            <h2>Donatiebrief</h2>
+            <p>
+                Met een deeltijdkracht onderhouden ze de tuin en geven ze les aan basisschoolkinderen. Hoewel de gemeente een kleine bijdrage levert, hopen ze met onderhoud en verbeteringen te bekostigen. Alle steun is welkom!!!
+            </p>
+        </div>
+
+        <div class="image-row">
+            <a href="https://www.google.com/maps/place/Slatuinenweg+45,+1057+KB+Amsterdam" target="_blank">
+                <img src="Afbeelding%20tuinen/maps.png" alt="Kaart met locatie" class="single-image">
+            </a>
+        </div>
+        
+
+        <div class="bordered-section">
+            <h3>Informatie</h3>
+            <p>
+                Locatie: Slatuinenweg 45, 1057 KB Amsterdam<br>
+                Telefoonnummer: 0204124361<br>
+                Email: <a href="mailto:slatuinen@tiscali.nl" style="color: white;">slatuinen@tiscali.nl</a><br>
+                Je zou ze ook kunnen bezoeken op <a href="http://www.natuurtuinslatuinen.nl" target="_blank" style="color: white;">www.natuurtuinslatuinen.nl</a>
+            </p>
+        </div>
+
+        <div class="flex-section">
+            <img src="Afbeelding%20tuinen/Middel%205.png" alt="Illustratie">
+            <div class="bordered-section" style="width: 50%;">
+                <h4>Maker</h4>
+                <p>
+                    Student: Luchandro Banel<br>
+                    School: HVA<br>
+                    Opleiding: CMD<br>
+                    Jaar: 2025
+                </p>
+            </div>
+        </div>
     </main>
 
     <footer>
         
     </footer>
-
-    </body>
+</body>
 </html>
