@@ -39,7 +39,7 @@ main {
     align-items: center;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
     text-align: center;
     background-color: #00a900;
     color: white;
